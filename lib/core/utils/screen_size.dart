@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+
+class ScreenSize {
+  static final ScreenSize _instance = ScreenSize._init();
+  ScreenSize._init();
+  factory ScreenSize() {
+    return _instance;
+  }
+  late Size screenSize;
+  double dynamicHeight(double percent) {
+    return screenSize.height * percent;
+  }
+
+  double dynamicWidth(double percent) {
+    return screenSize.width * percent;
+  }
+}
