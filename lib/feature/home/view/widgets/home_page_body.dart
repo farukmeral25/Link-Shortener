@@ -96,7 +96,7 @@ class HomePageBody extends StatelessWidget {
       children: [
         Container(
           color: AppColors.purple,
-          height: ScreenSize().dynamicHeight(.25),
+          height: ScreenSize().dynamicHeight(.28),
           width: ScreenSize().dynamicWidth(1),
         ),
         Positioned(
@@ -107,7 +107,7 @@ class HomePageBody extends StatelessWidget {
         ),
         Center(
           child: SizedBox(
-            height: ScreenSize().dynamicHeight(.25),
+            height: ScreenSize().dynamicHeight(.28),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
